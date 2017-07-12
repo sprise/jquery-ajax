@@ -42,6 +42,6 @@ if(!isset($_SESSION['crsf_token'])) $_SESSION['crsf_token'] = sha1('mmm_salt'.un
 	</div>
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="scripts_complete.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
