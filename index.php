@@ -31,7 +31,7 @@ if(!isset($_SESSION['crsf_token'])) $_SESSION['crsf_token'] = sha1('mmm_salt'.un
 		</div>
 		
 		<div class="row">
-			<form action="post" method="api-and-form-results.php" style="display: none;">
+			<form action="post" style="display: none;">
 				<input type="hidden" name="crsf_token" value="<?php echo $_SESSION['crsf_token'] ?>" />
 				<div id="products"><!-- jQuery will put our products here --></div>
 				
