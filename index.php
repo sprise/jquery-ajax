@@ -11,6 +11,7 @@ if(!isset($_SESSION['crsf_token'])) $_SESSION['crsf_token'] = sha1('mmm_salt'.un
 	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" />
 	<style>
 		.row, #products, input[type="submit"] {margin: 3rem auto;}
+		.error {margin: 1rem; text-align: center; color:red;}
 	</style>
 </head>
 <body>
